@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlibanhang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLiBanHang">
+        <activity android:name=".activity.khohang.TonKho" />
+        <activity android:name=".activity.khohang.XuatHang" />
+        <activity android:name=".activity.khohang.NhapHang" />
+        <activity android:name=".activity.khohang.QuanLiKhoHang" />
+        <activity android:name=".activity.hoadon.QuanLiHoaDon" />
+        <activity android:name=".activity.khachhang.SuaXoaKhachHang" />
+        <activity android:name=".activity.ThemAnh" />
+        <activity android:name=".activity.mathang.SuaXoaMatHang" />
+        <activity android:name=".activity.khachhang.ThemMoiKhachHang" />
+        <activity android:name=".activity.mathang.ThemMoiMatHang" />
+        <activity android:name=".activity.khachhang.QuanLiKhachHang" />
+        <activity android:name=".activity.mathang.QuanLiMatHang" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

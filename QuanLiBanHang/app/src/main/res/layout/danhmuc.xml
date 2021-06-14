@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tenDanhMuc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Tên danh mục"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>

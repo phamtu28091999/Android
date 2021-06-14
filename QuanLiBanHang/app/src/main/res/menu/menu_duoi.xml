@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mBanHang"
+        android:title="Bán hàng"
+        android:icon="@drawable/ic_ban_hang"/>
+
+    <item
+        android:icon="@drawable/ic_hoa_don"
+        android:id="@+id/mHoaDon"
+        android:title="Hóa đơn" />
+
+    <item
+        android:icon="@drawable/ic_bao_cao"
+        android:id="@+id/mBaoCao"
+        android:title="Báo cáo" />
+
+    <item
+        android:icon="@drawable/ic_them"
+        android:id="@+id/mThem"
+        android:title="Thêm" />
+
+</menu>
